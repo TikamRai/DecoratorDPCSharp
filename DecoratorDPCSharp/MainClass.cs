@@ -16,9 +16,9 @@ namespace DecoratorDPCSharp
             IComponent<string> colorDecorator = new ColorDecorator(concreteComponent);
             
             Console.WriteLine("ConcreteComponent: " + concreteComponent.GetText());
-            Console.WriteLine("PlainDecorator: " + plainDecorator.GetText());
-            Console.WriteLine("UpperCaseDecorator: " + upperCaseDecorator.GetText());
-            Console.WriteLine("ColorDecorator: " + colorDecorator.GetText());
+            Console.WriteLine("PlainDecorator (Output): " + plainDecorator.GetText());
+            Console.WriteLine("UpperCaseDecorator (Output): " + upperCaseDecorator.GetText());
+            Console.WriteLine("ColorDecorator (Outptu): " + colorDecorator.GetText());
         }
     }
 }
